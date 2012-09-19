@@ -1,0 +1,41 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent" >
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:context=".Contact" />
+    <TableRow>
+        <EditText
+	        android:id="@+id/search_box"
+	        android:ems="10" >
+
+        <requestFocus />
+    	</EditText>
+
+    	<Button
+    	    android:id="@+id/button_search"
+    	    android:text="@string/button_search"
+    	    android:width="100dp" />
+
+   		</TableRow>
+    
+
+    <Button
+        android:id="@+id/button_create_contact"
+        android:text="@string/create_contact"
+        android:width="100dp" />
+
+    <Button
+        android:id="@+id/viewinfo"
+        android:text="@string/view"
+        android:width="100dp" />
+
+    <Button
+        android:id="@+id/button_about"
+        android:text="@string/about"
+        android:width="100dp" />
+
+</TableLayout>

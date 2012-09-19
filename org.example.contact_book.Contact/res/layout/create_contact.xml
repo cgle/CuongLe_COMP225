@@ -1,0 +1,61 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:padding="10dp">
+
+    <TableRow>
+        <TextView
+        android:id="@+id/name"
+        android:text="@string/Name" />
+        
+	    <EditText
+	    android:id="@+id/create_name"
+	    android:ems="10">
+		</EditText>
+	</TableRow>
+	
+    <TableRow>
+        <TextView
+        android:id="@+id/age"
+        android:text="@string/Age" />
+
+	    <EditText
+	        android:id="@+id/create_age"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:inputType="number" />
+
+	</TableRow>
+	
+    <TableRow>
+        <TextView
+        android:id="@+id/number"
+        android:text="@string/Number" />
+
+	    <EditText
+	        android:id="@+id/create_number"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:inputType="phone" >
+
+	        <requestFocus />
+	    </EditText>
+
+	</TableRow>
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save" />
+    
+    <Button
+        android:id="@+id/refresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Refresh" />
+
+</TableLayout>
